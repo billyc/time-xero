@@ -2,6 +2,8 @@
 
 This little ditty posts new line items to invoices in Xero. It is just a node.js command line tool -- no UI. 
 
+![Screenshot](https://raw.githubusercontent.com/billyc/xero-tracker/master/scrnshot.png)
+
 **Setup**
 
 1. Follow [Xero dev instructions](https://developer.xero.com/documentation/api-guides/create-publicprivate-key) to set up your X.509 key and cert file first - these are used to authenticate.
