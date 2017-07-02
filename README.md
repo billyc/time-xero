@@ -8,6 +8,8 @@ This little ditty posts new line items to invoices in Xero. It is just a node.js
 $ node index.js INV-0010 "Task 1" 2017.07.04 150 8.0 "Grilled eggplant for company picnic"
 ```
 
+Xero doesn't have payroll or time-tracking built in; they want you to buy add-on products. Gross! So, let's fake it by using *inventory items* for things like labor and tasks. Once it's set up, you can add nicely formatted rows to your invoices by calling a bash one-liner.
+
 **Setup**
 
 1. Follow [Xero dev instructions](https://developer.xero.com/documentation/api-guides/create-publicprivate-key) to set up your X.509 key and cert file first - these are used to authenticate.
