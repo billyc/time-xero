@@ -13,7 +13,7 @@ This little ditty posts new line items to invoices in Xero. It is just a node.js
      terms, and click Save
    - Click `SHOW` on the key and secret fields, you'll need to copy them in the next step.
 2. Rename `config.sample.json` to `config.json` and enter your key and secret from above, and make sure the private-key path is correct too (probably `./privatekey.pem`)
-3. Set up at least one INVENTORY item in Xero. Since Xero doesn't have payroll or time-tracking built in,
+3. Back in your Xero account, set up at least one INVENTORY item. Since Xero doesn't have payroll or time-tracking built in,
    we fake it by using inventory items for things like labor and tasks. Inventory setup is in
    `Accounts - Inventory`.
    - You could just create one called `Labor` and be done with it
