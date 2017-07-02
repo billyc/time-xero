@@ -31,12 +31,12 @@ Xero doesn't have payroll or time-tracking built in; they want you to buy add-on
      clients.
 4. Create a draft invoice for each client you'll be billing time, noting the Invoice ID for each. You'll need that ID.
 
-That's it for setup. Now you can add lines to existing draft invoices!
+That's it for setup. Now you can add labor to those draft invoices!
 
 **Usage:**
 
 ```bash
-$ node index.js InvoiceID ItemCode Date Rate Hours "Message"
+$ node index.js InvoiceID TaskID Date Rate Hours "Description"
 # Example:
 # node index.js INV-0010 "Task 1" 2017.07.04 150 8.0 "Grilled eggplant for company picnic"
 ```
