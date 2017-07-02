@@ -25,7 +25,9 @@ That's it for setup. Now you can add lines to existing draft invoices!
 **Usage:**
 
 ```bash
-node index.js InvoiceID ItemCode Date Rate Hours "Message"
+$ node index.js InvoiceID ItemCode Date Rate Hours "Message"
+# Example:
+# node index.js INV-0010 "Task 1" "2017.07.04" 150 8.0 "Grilled eggplant for company picnic"
 ```
 
 - Use "quotes" around things that have spaces, such as the ItemCode and the Message
