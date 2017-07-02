@@ -43,9 +43,6 @@ async function doit() {
   invoice.LineItems.push(timeEntry);
 
   await invoice.save();
-
-  console.log(timeEntry);
-  
   return timeEntry;
 }
 
@@ -53,4 +50,3 @@ doit().catch(err => {
   console.log("oops -> ");
   console.log(err);
 });
-

@@ -2,5 +2,5 @@
     "userAgent" : "Tester",
     "consumerKey": "xxxxx",
     "consumerSecret": "xxxxx",
-    "privateKeyPath": "./myprivatekey.pem"
+    "privateKeyPath": "./privatekey.pem"
 }
