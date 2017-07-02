@@ -43,10 +43,16 @@ async function doit() {
   invoice.LineItems.push(timeEntry);
 
   await invoice.save();
-  return timeEntry;
 }
 
 doit().catch(err => {
-  console.log("oops -> ");
-  console.log(err);
+  console.log("\noops -> ");
+  try {
+    var errStart = err.message.indexOf('ValidationErrors');
+    var errEnd = err.message.indexOf('},\n',errStart);
+    console.log(err.message.slice(errStart,errEnd));
+  }
+  catch(z) {
+    console.log(z);
+  }
 });
