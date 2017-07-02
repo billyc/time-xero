@@ -1,6 +1,8 @@
 # BECAUSE TIMESHEETS
 
-This little ditty posts new line items to invoices in Xero. Before it will work you must:
+This little ditty posts new line items to invoices in Xero. It is just a node.js command line tool -- no UI. 
+
+**Setup**
 
 1. Follow [Xero dev instructions](https://developer.xero.com/documentation/api-guides/create-publicprivate-key) to set up your X.509 key and cert file first - these are used to authenticate.
 2. On developer.xero.com go to `My Apps` and `Add Application` for your organization. Set it up as
