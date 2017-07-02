@@ -55,6 +55,6 @@ $ node index.js InvoiceID Date TaskID Rate Hours "Description"
 - The date field is just plain text so format it however you want. Use quotes if it has spaces, e.g. `"May 1, 2017"`
 - For now, everything gets dumped into the Sales account (code 400) and tax is set to `Tax Exempt`. Modifying those is your homework.
 
-Have fun,
+Now go make some money,
 Billy
 
