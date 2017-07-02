@@ -1,7 +1,7 @@
 'use strict';
 
-var xeronode = require('xero-node');
 var fs = require('fs');
+var xeronode = require('xero-node');
 var config = require('./config.json');
 
 //Private key can either be a path or a String so check both variables and make sure the path has been parsed.
@@ -14,13 +14,13 @@ if (config.privateKeyPath && !config.privateKey)
 // xero.PartnerApplication
 
 if (process.argv.length < 8) {
-  console.log('Usage: node index.js InvoiceID ItemCode Date Rate Hours "Message"');
+  console.log('Usage: node index.js InvoiceID Date TaskID Rate Hours "Message"');
   process.exit(-1);
 }
 
 var InvoiceId = process.argv[2];
-var ItemCode = process.argv[3];
-var XDate = process.argv[4];
+var XDate = process.argv[3];
+var ItemCode = process.argv[4];
 var UnitAmount = process.argv[5];
 var Quantity = process.argv[6];
 var Description = process.argv[7];
