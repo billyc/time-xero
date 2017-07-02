@@ -24,7 +24,7 @@ That's it for setup. Now you can add lines to existing draft invoices!
 
 **Usage:**
 
-- `node index.js InvoiceID ItemCode Date Rate Hours "Message"
+- `node index.js InvoiceID ItemCode Date Rate Hours "Message"`
 - Use "quotes" around things that have spaces, such as the ItemCode and the Message
 - The invoice must already exist and should be in draft form.
 
