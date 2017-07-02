@@ -1,0 +1,15 @@
+{
+  "name": "timesheets",
+  "version": "1.0.0",
+  "description": "xero timesheet hack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "billy",
+  "license": "ISC",
+  "dependencies": {
+    "oauth-request": "^0.1.0",
+    "xero-node": "^2.1.8"
+  }
+}
