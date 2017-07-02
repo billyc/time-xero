@@ -47,7 +47,7 @@ That's it for setup. Now you can add labor to those draft invoices!
 ```bash
 $ node index.js InvoiceID Date TaskID Rate Hours "Description"
 # Example:
-# node index.js INV-0010 "Task 1" 2017.07.04 150 8.0 "Grilled some eggplant for company picnic"
+# node index.js INV-0010 2017.07.04 "Task 1" 150 8.0 "Grilled some eggplant for company picnic"
 ```
 
 - The invoice must already exist and be in draft (editable) status.
