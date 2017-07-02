@@ -18,8 +18,9 @@ This little ditty posts new line items to invoices in Xero. It is just a node.js
    `Accounts - Inventory`.
    - You could just create one called `Labor` and be done with it
    - Or, like me, you could create generic `Task 1` `Task 2` `Task 3` and so on. 
-   - These items will be labels on the invoice rows, so choose things that make sense for your
-     clients
+   - Ignore all of the fields and checkboxes in the Inventory setup page -- just give the item a name and click Save.
+   - These items will be visible labels on the invoice rows, so choose things that make sense for your
+     clients.
 4. Create a draft invoice for each client you'll be billing time, noting the Invoice ID for each. You'll need that ID.
 
 That's it for setup. Now you can add lines to existing draft invoices!
