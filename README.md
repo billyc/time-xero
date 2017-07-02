@@ -1,8 +1,8 @@
 # BECAUSE TIMESHEETS
 
-This little ditty posts new line items to invoices in Xero. It is just a node.js command line tool -- no UI. 
-
 ![Screenshot](https://raw.githubusercontent.com/billyc/xero-tracker/master/scrnshot.png)
+
+This little ditty posts new line items to invoices in Xero. It is just a node.js command line tool -- no UI. 
 
 **Setup**
 
