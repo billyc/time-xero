@@ -41,9 +41,9 @@ $ node index.js InvoiceID TaskID Date Rate Hours "Description"
 # node index.js INV-0010 "Task 1" 2017.07.04 150 8.0 "Grilled eggplant for company picnic"
 ```
 
-- The invoice must already exist and should be in draft (editable) status.
-- Use "quotes" around things that have spaces, such as the ItemCode and the Message
-- The date field is just plain text so format it however you want -- use quotes if it has spaces, e.g. `"May 1, 2017"`
+- The invoice must already exist and be in draft (editable) status.
+- Use "quotes" around things that have spaces, such as the TaskID and the Description
+- The date field is just plain text so format it however you want. Use quotes if it has spaces, e.g. `"May 1, 2017"`
 - For now, everything gets dumped into the Sales account (code 400) and tax is set to `Tax Exempt`. Modifying those is your homework.
 
 Have fun,
