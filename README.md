@@ -1,4 +1,4 @@
-# BECAUSE TIMESHEETS: TIME-XERO
+# TIME-XERO: Because timesheets.
 
 ![Screenshot](https://raw.githubusercontent.com/billyc/xero-tracker/master/scrnshot.png)
 
