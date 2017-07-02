@@ -10,7 +10,7 @@ This little ditty posts new line items to invoices in Xero. Before it will work 
    - Paste in the contents of the `publickey.cer` file that you just created in step 1, agree to
      terms, and click Save
    - Click `SHOW` on the key and secret fields, you'll need to copy them in the next step.
-2. Copy `config.sample.json` to `config.json` and enter your key and secret from above, and make sure the private-key path is correct too (probably `./privatekey.pem`)
+2. Rename `config.sample.json` to `config.json` and enter your key and secret from above, and make sure the private-key path is correct too (probably `./privatekey.pem`)
 3. Set up at least one INVENTORY item in Xero. Since Xero doesn't have payroll or time-tracking built in,
    we fake it by using inventory items for things like labor and tasks. Inventory setup is in
    `Accounts - Inventory`.
