@@ -18,7 +18,7 @@ This little ditty posts new line items to invoices in Xero. Before it will work 
    - Or, like me, you could create generic `Task 1` `Task 2` `Task 3` and so on. 
    - These items will be labels on the invoice rows, so choose things that make sense for your
      clients
-4. Create a draft invoice, and give it an Invoice ID / number. You'll need that ID.
+4. Create a draft invoice for each client you'll be billing time, noting the Invoice ID for each. You'll need that ID.
 
 That's it for setup. Now you can add lines to existing draft invoices!
 
